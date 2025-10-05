@@ -6,6 +6,7 @@
     "strict": true,
     "jsx": "preserve",
     "baseUrl": ".",
-    "paths": {}
+    "paths": {},
+    "types": ["@types/node"]
   }
 }

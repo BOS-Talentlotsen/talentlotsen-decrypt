@@ -10,16 +10,14 @@
 </style>
 <h1>AES-GCM Payload Generator</h1>
 <div class="row">
-  <label>AES_KEY_B64 (wie in Vercel):</label>
-  <input id="key" placeholder="Dein KEY" />
+  <label>AES_KEY_B64 (wie in Vercel gesetzt):</label>
+  <input id="key" placeholder="Base64-String (32 Byte)" />
 </div>
 <div class="row">
   <label>JSON Klartext (wird verschlüsselt):</label>
   <textarea id="plain">{ "hello": "world", "n": 42 }</textarea>
 </div>
-<div class="row">
-  <button id="gen">Payload erzeugen</button>
-</div>
+<div class="row"><button id="gen">Payload erzeugen</button></div>
 <div class="row">
   <label>Result (iv, ct, ts):</label>
   <pre id="out"></pre>
